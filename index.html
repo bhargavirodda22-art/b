@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>NB Diamonds Jewellery</title>
+  <meta name="description" content="NB Diamonds Jewellery — Gold & Diamond Jewellery. Certified pieces, bespoke bridal sets, and lifetime service." />
+  <style>
+    :root{
+      --gold:#b89b5b;
+      --dark:#0a0a0a;
+      --muted:#666;
+      --accent:#f7f5f2;
+      font-family: Georgia, 'Times New Roman', serif;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;color:#111;background:#fff;-webkit-font-smoothing:antialiased}
+    header{background:var(--dark);color:var(--gold)}
+    .container{max-width:1100px;margin:0 auto;padding:20px}
+    .topbar{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:14px}
+    .brand{display:flex;align-items:center;gap:12px}
+    .logo{height:64px;width:64px;object-fit:cover;border-radius:50%;background:#fff;padding:4px}
+    nav{display:flex;gap:12px;flex-wrap:wrap}
+    nav a{color:var(--gold);text-decoration:none;font-weight:600;padding:8px 10px;border-radius:6px}
+    nav a:hover{background:#111;color:#fff}
+    .hero{display:flex;flex-direction:column;align-items:flex-start;gap:18px;padding:48px;border-bottom:1px solid #eee;background:var(--accent)}
+    .hero h1{margin:0;font-size:28px}
+    .hero p{margin:0;color:var(--muted)}
+    section{padding:40px 0;border-bottom:1px solid #f0f0f0}
+    h2{margin:0 0 12px}
+    .small{color:var(--muted)}
+    .instagram{display:flex;align-items:center;gap:8px}
+    .contact-card{background:#fff;border:1px solid #eee;padding:16px;border-radius:8px;max-width:720px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}
+    footer{padding:24px;text-align:center;color:var(--muted)}
+    a.cta{display:inline-block;padding:10px 16px;border:2px solid var(--gold);color:var(--dark);text-decoration:none;border-radius:6px}
+    @media(min-width:900px){
+      .hero{flex-direction:row;align-items:center;justify-content:space-between}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container topbar">
+      <div class="brand">
+        <!-- keep filename images/logo.jpg or update path after upload -->
+        <img src="images/logo.jpg" alt="NB Diamonds Logo" class="logo">
+        <div>
+          <div style="font-weight:700">NB Diamonds Jewellery</div>
+          <div class="small">Wholesale & Retail • Certified Jewellery</div>
+        </div>
+      </div>
+
+      <nav aria-label="Main navigation">
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#beads">Bead Collection</a>
+        <a href="#diamonds">Diamond Collection</a>
+        <a href="#custom">Custom Jewelry / Bridal</a>
+        <a href="#certs">Certifications & Guarantee</a>
+        <a href="#contact">Contact / Store Location</a>
+        <a href="https://www.instagram.com/nb_diamonds_jewellery" target="_blank" rel="noopener noreferrer" style="border:1px solid rgba(255,255,255,0.06);">Instagram</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container" id="home">
+    <section class="hero" aria-labelledby="hero-heading">
+      <div>
+        <h1 id="hero-heading">NB Diamonds Jewellery — Timeless Gold & Diamond Pieces</h1>
+        <p class="small">Certified pieces, bespoke bridal designs and personalised service. Message us on Instagram or call to enquire.</p>
+        <p><a class="cta" href="#contact">Contact / Visit</a></p>
+      </div>
+
+      <div style="min-width:200px;">
+        <!-- featured image placeholder (replace with a product or store photo in images/) -->
+        <img src="images/logo.jpg" alt="NB Diamonds" style="width:220px;height:220px;object-fit:cover;border-radius:8px;box-shadow:0 10px 25px rgba(0,0,0,0.08)">
+      </div>
+    </section>
+
+    <section id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About Us</h2>
+      <div class="contact-card">
+        <p><strong>Sathya</strong> — a household started business to support husanad and family and new to instagram.</p>
+        <p class="small">We specialise in quality gold, diamond and bead jewellery — wholesale & retail. Certificates and hallmarking provided where applicable.</p>
+      </div>
+    </section>
+
+    <section id="beads" aria-labelledby="beads-heading">
+      <h2 id="beads-heading">Bead Collection</h2>
+      <p class="small">Explore our curated bead designs — classic and contemporary. For enquiries and images of available pieces, message us on Instagram or contact the store.</p>
+    </section>
+
+    <section id="diamonds" aria-labelledby="diamonds-heading">
+      <h2 id="diamonds-heading">Diamond Collection</h2>
+      <p class="small">Certified diamond jewellery — rings, pendants, and bridal sets. We provide documentation for certified stones upon request.</p>
+    </section>
+
+    <section id="custom" aria-labelledby="custom-heading">
+      <h2 id="custom-heading">Custom Jewelry / Bridal</h2>
+      <p class="small">Bespoke bridal and custom jewellery services. Share your design ideas on Instagram or visit the store for a consultation.</p>
+    </section>
+
+    <section id="certs" aria-labelledby="certs-heading">
+      <h2 id="certs-heading">Certifications & Guarantee</h2>
+      <p class="small">We provide IGI / GIA / Hallmark certificates where applicable. Each certified stone will include downloadable documentation on request.</p>
+    </section>
+
+    <section id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact / Store Location</h2>
+      <div class="grid">
+        <div class="contact-card">
+          <p><strong>Store:</strong> N.B DIAMONDS and beads wholesale</p>
+          <p><strong>Address:</strong> pillar No.1553, opp, pullareddy sweet house, Chaitanyapuri</p>
+          <p><strong>Phone / WhatsApp:</strong> <a href="tel:+919948137387">+91 99481 37387</a></p>
+          <p class="small">Please message on Instagram for quickest replies: <a href="https://www.instagram.com/nb_diamonds_jewellery" target="_blank" rel="noopener noreferrer">@nb_diamonds_jewellery</a></p>
+        </div>
+
+        <div class="contact-card">
+          <h3>Visit or Enquire</h3>
+          <p class="small">Open hours and directions — add your exact timings here. Use the Instagram link above or call to book an appointment.</p>
+          <p><a class="cta" href="https://www.instagram.com/nb_diamonds_jewellery" target="_blank" rel="noopener noreferrer">Message on Instagram</a></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div style="margin-bottom:8px">© NB Diamonds Jewellery</div>
+      <div class="small">Certificates: IGI / GIA / Hallmark | Wholesale & Retail</div>
+    </div>
+  </footer>
+</body>
+</html>
